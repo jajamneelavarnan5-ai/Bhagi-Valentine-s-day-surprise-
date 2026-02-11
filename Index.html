@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine Surprise ❤️</title>
+<style>
+body{
+ background: linear-gradient(45deg,#ff758c,#ff7eb3);
+ font-family: Arial;
+ text-align:center;
+ padding:30px;
+ color:white;
+}
+.box{
+ background:rgba(255,255,255,0.2);
+ padding:25px;
+ border-radius:15px;
+}
+button{
+ padding:12px 20px;
+ border:none;
+ border-radius:8px;
+ font-size:18px;
+ background:#fff;
+ color:#ff4b5c;
+ margin-top:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>Happy Valentine’s Day My Love ❤️</h1>
+
+<p>You are the best thing that ever happened to me.</p>
+<p>I made this small surprise only for you 💕</p>
+
+<button onclick="show()">Click for your surprise 🎁</button>
+
+<p id="msg" style="display:none;font-size:20px;margin-top:20px;">
+Surprise! Get ready by 7 PM 💖  
+We are going for a romantic dinner tonight 🌹
+</p>
+</div>
+
+<script>
+function show(){
+ document.getElementById("msg").style.display="block";
+}
+</script>
+</body>
+</html>
